@@ -1,0 +1,51 @@
+.content {
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+#blue {
+    background-color: deepskyblue;
+}
+
+#coral {
+    background-color: coral;
+}
+
+.content img {
+    padding: 15px;
+    height: 270px;
+}
+
+.imgLeft {
+    float: left;
+}
+
+.imgRight {
+    float: right;
+}
+
+.inText {
+    padding: 15px;
+}
+
+.gamename {
+    padding-top: 15px;
+}
+
+.seemore {
+    background: white;
+    color: coral;
+    border: 10px;
+    border-radius: 10px;
+    border-color: coral;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.seemore:hover {
+    color: deepskyblue;
+}
