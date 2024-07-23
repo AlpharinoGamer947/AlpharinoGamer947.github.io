@@ -131,6 +131,10 @@ body {
     width: 50%;
 }
 
+.full-text {
+    width: 100%;
+}
+
 /* home - recent */
 
 .left-text .button-content {
