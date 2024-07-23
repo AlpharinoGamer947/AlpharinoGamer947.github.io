@@ -98,6 +98,8 @@ body {
     background-color: rgba(255, 255, 255, 0.542);
 
     display: flex;
+
+    padding: 1vw;
 }
 
 .recent-container:hover {
@@ -109,7 +111,7 @@ body {
     width: 50%;
     height: 100%;
 
-    padding: 1vw;
+    /* padding: 1vw; */
 
     background-color: rgba(255, 153, 0, 0.408);
 
@@ -125,13 +127,14 @@ body {
 }
 
 .right-vid {
-    padding: 1vw;
+    /* padding: 1vw; */
     background-color: rgba(0, 229, 255, 0.408);
 
     width: 50%;
 }
 
 .full-text {
+    /* padding: 1vw; */
     width: 100%;
 }
 
