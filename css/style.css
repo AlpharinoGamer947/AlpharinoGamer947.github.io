@@ -87,7 +87,7 @@ body {
 /* heading */
 
 /* home - recent */
-.recent-container {
+.info-container {
     width: 96vw;
     /* height: 650px; */
     height: fit-content;
@@ -102,7 +102,7 @@ body {
     /* padding: 1vw; */
 }
 
-.recent-container:hover {
+.info-container:hover {
     box-shadow: 5px 5px rgba(87, 87, 87, 0.632);
 }
 
@@ -165,7 +165,7 @@ body {
 
 
 @media(max-width: 930px) {
-    .recent-container {
+    .info-container {
         display: block;
     }
 }
