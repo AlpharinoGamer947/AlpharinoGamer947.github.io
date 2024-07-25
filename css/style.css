@@ -102,7 +102,7 @@ body {
     /* padding: 1vw; */
 }
 
-.info-container:hover {
+#hoverable:hover {
     box-shadow: 5px 5px rgba(87, 87, 87, 0.632);
 }
 
