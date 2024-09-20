@@ -1,64 +1,96 @@
+/* Information Container */
 .information-container {
-    width: 150%;
+    width: 98.5%;
     height: 350px;
-    background-color: var(--color-5);
+    background-color: var(--color-10);
     text-decoration: none;
+    margin: 15px auto;
 }
 
 .information-container a {
     text-decoration: none;
 }
 
-.information-container #heading {
+/* Heading */
+.information-container h1 {
     padding: 15px 15px;
+}
+
+.information-container #heading {
     color: var(--color-2);
-    /* text-decoration: none; */
 }
 
 .information-container #heading:hover {
-    color: var(--color-4);
-    text-decoration: underline;
+    color: var(--color-3);
 }
 
+/* Body */
 .information-container #body {
     padding: 0 15px;
     color: var(--color-2);
-    /* text-decoration: none; */
     font-size: 25px;
-    /* justify-content: center; */
-    /* align-items: center; */
 }
 
+/* Image */
 .information-container .image {
     float: left;
     padding: 0px 15px;
     height: 262px;
 }
 
+
+/* More Content Button */
 .information-container button {
-
-    margin: 15px;
-    padding: 1em 2em;
-
+    margin: 15px 15px;
     background-color: var(--color-6);
     border: 5px solid var(--color-3);
     border-radius: 1000px;
-
-    color: var(--color-2);
-
     font-family: Poppins, 'Segoe UI', Tahoma, sans-serif;
-    position: relative;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     font-weight: 900;
+    height: 50px;
+    width: 175px;
 }
 
 .information-container button:hover {
-    border: 5px solid var(--color-5);
-    background-image: linear-gradient(to bottom right, var(--color-3), var(--color-7));
+    border: 5px solid var(--color-3);
+    background-color: var(--color-3);
+}
+
+.information-container #button {
+    justify-content: center;
+    align-items: center;
+    color: var(--color-2);
+    display: flex;
+    height: 50px;
+    width: 175px;
+}
+
+.information-container #button:hover {
     color: var(--color-1);
+}
+
+@media(max-width: 1000px) {
+
+    /* Information Container */
+    .information-container {
+        width: 95vw;
+        display: flexbox;
+        height: fit-content;
+        background-color: var(--color-10);
+        text-decoration: none;
+        margin: 15px auto;
+        /* border: 15px auto;
+        padding: 15px auto; */
+    }
+
+    .information-container .image {
+        float: left;
+        padding: 0 15px;
+        padding-bottom: 10px;
+        width: 91vw;
+    }
 
 }
