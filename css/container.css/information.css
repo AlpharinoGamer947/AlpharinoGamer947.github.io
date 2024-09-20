@@ -1,21 +1,64 @@
-a {
-    text-decoration: none;
-}
-
 .information-container {
-    width: 100%;
+    width: 150%;
     height: 350px;
     background-color: var(--color-5);
     text-decoration: none;
 }
 
-.information-container #heading {
-    padding: 10px 15px;
-    color: var(--color-2);
+.information-container a {
     text-decoration: none;
+}
+
+.information-container #heading {
+    padding: 15px 15px;
+    color: var(--color-2);
+    /* text-decoration: none; */
 }
 
 .information-container #heading:hover {
     color: var(--color-4);
     text-decoration: underline;
+}
+
+.information-container #body {
+    padding: 0 15px;
+    color: var(--color-2);
+    /* text-decoration: none; */
+    font-size: 25px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.information-container .image {
+    float: left;
+    padding: 0px 15px;
+    height: 262px;
+}
+
+.information-container button {
+
+    margin: 15px;
+    padding: 1em 2em;
+
+    background-color: var(--color-6);
+    border: 5px solid var(--color-3);
+    border-radius: 1000px;
+
+    color: var(--color-2);
+
+    font-family: Poppins, 'Segoe UI', Tahoma, sans-serif;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 900;
+}
+
+.information-container button:hover {
+    border: 5px solid var(--color-5);
+    background-image: linear-gradient(to bottom right, var(--color-3), var(--color-7));
+    color: var(--color-1);
+
 }

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --color-1: #000000;
+    --color-2: #ffffff;
+    --color-3: #00bfff;
+    --color-4: #ff7f50;
+    --color-5: #0e0e0e;
+    --color-6: #1a1a1a;
+    --color-7: #0059ff;
+    --color-8: #00ffcc;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    overscroll-behavior: none;
+}
+
+html {
+    font-size: 17px;
+    font-family: Poppins, 'Segoe UI', Tahoma, sans-serif;
+    background-color: var(--color-1);
+}
