@@ -1,0 +1,6 @@
+To link github and see changes at the same tima and be able to push changes back to git:
+    1. open github desktop
+    2. choose repository
+    3. open via vs code
+    4. index.html -> open with live server
+    5. Done

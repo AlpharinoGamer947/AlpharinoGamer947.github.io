@@ -5,6 +5,7 @@
     --color-2: #ffffff;
     --color-3: #00bfff;
     --color-4: #ff7f50;
+    --color-5: #0e0e0e;
 }
 
 * {
@@ -41,7 +42,7 @@ nav a {
     display: flex;
     align-items: center;
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 500;
     color: var(--color-2);
 }
 

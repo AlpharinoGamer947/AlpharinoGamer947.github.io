@@ -1,0 +1,31 @@
+index.html (home)
+
+    home.videogames.html (videogames)
+        home.zenlesszonezero.html
+            ui.zenlesszonezero.html
+            character.zenlesszonezero.html
+                - characters and their html pages
+            bangboo.zenlesszonezero.html
+                - bangboos and their html pages
+            map.zenlesszonezero.html
+            levelupmaterials.zenlesszonezero.html
+            dailytask.zenlesszonezero.html
+            wengine.zenlesszonezero.html
+            drivedisk.zenlesszonezero.html
+
+    home.digitalart.html (Inkscape and Krita)
+        inkscape.digitalart.html
+        krita.digitalart.html
+
+    home.blender.html (3D Models)
+        innovationfx.blender.html
+            vehicles.innovationfx.blender.html
+            story.innovationfx.blender.html
+
+    home.coding.html
+        java.coding.html
+            - add lesson for html pages
+
+    home.social.html
+        - list of websites like:
+            - yt
