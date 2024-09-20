@@ -90,7 +90,8 @@
         float: left;
         padding: 0 15px;
         padding-bottom: 10px;
-        width: 91vw;
+        width: 90vw;
+        height: auto;
     }
 
 }
