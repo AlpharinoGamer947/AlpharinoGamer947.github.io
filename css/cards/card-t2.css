@@ -1,0 +1,40 @@
+.card-t2 {
+    width: 31vw;
+    height: 30vh;
+    background-color: whitesmoke;
+    margin: 1.5vh 0.70vw;
+    color: black;
+
+    border: 0.5vw solid black;
+    border-radius: 0.5em;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    h1 {
+        padding: 2vh 1vw;
+        text-align: center;
+    }
+
+    p {
+        padding: 2vh 1vw;
+        font-size: 1.3em;
+        font-weight: 500;
+    }
+}
+
+.card-t2:hover {
+    /* background-color: black; */
+    border-color: deepskyblue;
+
+    a {
+        color: deepskyblue;
+        text-decoration: underline;
+    }
+
+    p {
+        color: deepskyblue;
+    }
+}
