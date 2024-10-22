@@ -38,3 +38,10 @@
         color: deepskyblue;
     }
 }
+
+@media (max-width: 700px) {
+    .card-t2 {
+        width: 98vw;
+        height: fit-content;
+    }
+}

@@ -45,11 +45,6 @@
 
 }
 
-/* .card-t1 #more-info-button:hover {
-    border-color: deepskyblue;
-    background-color: black;
-    color: deepskyblue;
-} */
 .card-t1:hover {
 
     border-color: deepskyblue;
@@ -74,5 +69,27 @@
     #more-info-button:hover {
         border-color: coral;
         color: coral;
+    }
+}
+
+@media (max-width: 700px) {
+    .card-t1 {
+
+        display: flex;
+        flex-direction: column;
+
+        a {
+            display: block;
+            text-align: center;
+        }
+
+        p {
+            text-align: left;
+        }
+
+        #more-info-button {
+            width: 90vw;
+            height: 4vh;
+        }
     }
 }

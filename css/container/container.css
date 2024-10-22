@@ -1,3 +1,12 @@
-.container {
+/* .container {
     display: inline-flex;
 }
+
+@media (max-width: 700px) {
+    .container {
+        display: inline-block;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+    }
+} */
