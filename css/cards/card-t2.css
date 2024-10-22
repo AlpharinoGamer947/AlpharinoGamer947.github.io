@@ -1,10 +1,22 @@
 .card-t2 {
-    width: 30.78vw;
+
+    /* 
+        Border Size: 0.5vw :: x2    --> 1vw
+        margin width: 1vw :: x2     --> 2vw
+        container width: 46vw :: x1 --> 46vw
+        - - - - - - - - - - - total vw: 49vw
+    */
+
+    width: 46vw;
     height: 30vh;
+
+    margin: 2vh 1vw;
+
     background-color: white;
-    margin: 1.5vh 0.70vw;
+
     color: black;
     display: inline-block;
+
     border: 0.5vw solid black;
     border-radius: 0.5em;
 
@@ -43,6 +55,7 @@
     .card-t2 {
         display: block;
         width: 98vw;
+        margin: 2vh 1vw;
         height: fit-content;
     }
 }
