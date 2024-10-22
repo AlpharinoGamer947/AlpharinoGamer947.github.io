@@ -1,0 +1,8 @@
+index.html --> home.alpharinogamer947.html --> home page for the website
+    - vg.alpharinogamer947.html --> home page for video games
+        - zenlesszonezero.vg.alpharinogamer947.html
+    - blender.alpharinogamer947.html --> home page for blender
+        - blender.alpharinogamer947.html
+    - story.alpharinogamer947.html
+        - fxstory.story.alpharinogamer947.html --> home page for stories
+    - store.alpharinogamer947.html
