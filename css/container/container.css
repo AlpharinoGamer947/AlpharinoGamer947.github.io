@@ -1,5 +1,6 @@
-/* .container {
+.container {
     display: inline-flex;
+    text-align: center;
 }
 
 @media (max-width: 700px) {
@@ -9,4 +10,4 @@
         justify-content: center;
         align-content: center;
     }
-} */
+}
