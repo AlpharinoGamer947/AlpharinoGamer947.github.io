@@ -1,10 +1,10 @@
 .card-t2 {
-    width: 31vw;
+    width: 30.78vw;
     height: 30vh;
-    background-color: whitesmoke;
+    background-color: white;
     margin: 1.5vh 0.70vw;
     color: black;
-
+    display: inline-block;
     border: 0.5vw solid black;
     border-radius: 0.5em;
 
@@ -41,6 +41,7 @@
 
 @media (max-width: 700px) {
     .card-t2 {
+        display: block;
         width: 98vw;
         height: fit-content;
     }
