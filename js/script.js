@@ -18,8 +18,8 @@ document.addEventListener("DOMContentLoaded", function () {
     { text: "VG", link: "/html/videogames/videogames.alpharinogamer947.html" },
     { text: "Blender", link: "/html/blender/blender.alpharinogamer947.html" },
     { text: "Notes", link: "/html/test.html" },
-    { text: "Internship", link: "/html/internships/login.html" },
-    { text: "hi", link: "/html/test.html" },
+    // { text: "Internship", link: "/html/internships/login.html" },
+    // { text: "hi", link: "/html/test.html" },
   ];
 
   // for each loop
