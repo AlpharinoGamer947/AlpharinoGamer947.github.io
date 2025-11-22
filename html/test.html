@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <link rel="stylesheet" href="/elements/navbar/NavBar.css" />
+    <script src="/elements/navbar/NavBar.js"></script>
+    <link rel="stylesheet" href="/elements/menuitem/MenuItem.css" />
+    <script src="/elements/menuitem/MenuItem.js"></script>
+    <link rel="stylesheet" href="/elements/itemcard/ItemCard.css" />
+    <script src="/elements/itemcard/ItemCard.js"></script>
+  </head>
+  <body>
+    <nav-bar></nav-bar>
+
+    <style>
+      .map-test {
+        width: 500px;
+        height: 500px;
+        background-color: #ffffff;
+        margin: 150px 0px;
+        justify-self: center;
+        padding: 10px;
+        align-content: center;
+        justify-items: center;
+        border: 5px solid black;
+        border-radius: 10px;
+      }
+
+      .image-container {
+        width: 490px;
+        height: 490px;
+        overflow: hidden;
+      }
+
+      .image-container:hover {
+        cursor: move;
+      }
+    </style>
+
+    <div class="map-test">
+      <div class="image-container">
+        <img
+          src="/res/games/aviassembly/testmap_v1.svg"
+          alt=""
+          class="test-map"
+        />
+      </div>
+    </div>
+  </body>
+</html>

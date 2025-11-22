@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="/elements/Paragraph/Paragraph.css" />
+    <link rel="stylesheet" href="/elements/navbar/NavBar.css" />
+    <script src="/elements/navbar/NavBar.js"></script>
+    <link rel="stylesheet" href="/elements/menuitem/MenuItem.css" />
+    <script src="/elements/menuitem/MenuItem.js"></script>
+    <link rel="stylesheet" href="/elements/itemcard/ItemCard.css" />
+    <script src="/elements/itemcard/ItemCard.js"></script>
+    <link rel="stylesheet" href="/elements/gamecard/GameCard.css" />
+    <script src="/elements/gamecard/GameCard.js"></script>
+  </head>
+
+  <body>
+    <nav-bar></nav-bar>
+
+    <div class="custom-header">About Me</div>
+    <p>
+      Hi, I am AlpharinoGamer947, AGN for short. I like to play small to medium
+      indie games and post them on YouTube unedited.
+    </p>
+    <div class="custom-header">Websites</div>
+    <div class="item-card-container" style="justify-content: center">
+      <item-card
+        ichref=""
+        src="/res/apps/youtube-logo.svg"
+        icwidth="125px"
+        icname="YouTube Channel"
+      ></item-card>
+      <item-card
+        ichref=""
+        src="/res/apps/discord-logo.svg"
+        icwidth="125px"
+        icname="Discord Server"
+      ></item-card>
+      <!-- <item-card ichref="" src="" icwidth="" icname=""></item-card> -->
+      <!-- <item-card ichref="" src="" icwidth="" icname=""></item-card> -->
+    </div>
+
+    <div class="custom-header">Games</div>
+    <div class="game-card-container">
+      <game-card
+        gchref="/html/games/aviassembly_home.html"
+        src="/res/games/aviassembly/aviassembly_background_image_2.svg"
+        gcwidth="100%"
+        gcname="Aviassembly"
+      >
+      </game-card>
+
+      <game-card
+        gchref="https://store.steampowered.com/app/3576870/Blossom_The_Seed_Of_Life/"
+        src="/res/games/blossom/blossom_background_image_3.svg"
+        gcwidth="100%"
+        gcname="Blossom: The Seed of Life"
+      >
+      </game-card>
+
+      <!-- gchref="" -->
+      <game-card
+        gchref="/html/games/isocore_home.html"
+        src="/res/games/isocore/isocore_background_image_2.png"
+        gcwidth="100%"
+        gcname="ISO-CORE"
+      >
+      </game-card>
+    </div>
+  </body>
+</html>

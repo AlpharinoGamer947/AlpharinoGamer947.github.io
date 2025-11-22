@@ -1,0 +1,42 @@
+
+.mission-table {
+  width: 96%;
+}
+
+.mission-table, th, td {
+  margin: 20px;
+  padding: 10px;
+  justify-self: center;
+  border: 2px solid black;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.mission-table > caption {
+  font-size: 20px;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+
+.mission-table > tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+.other-heading {
+  text-align: center;
+  width: 50px;
+}
+
+/* .item-storage {
+  width: 50px;
+}
+.item-timed {
+  width: 50px;
+}
+.item-fragile {
+  width: 50px;
+  } */
+.item-logo {
+  width: 100px;
+  height: 75px;
+}
