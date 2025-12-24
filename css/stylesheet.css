@@ -79,7 +79,7 @@ a {
 }
 
 .game-card-long-link .game-card-long-container {
-    width: fit-content;
+    width: 100%;
     height: fit-content;
     overflow: hidden;
     border-radius: 15px;
@@ -94,7 +94,7 @@ a {
 }
 
 .game-card-long-link .game-card-long-container .long_game_card_isocore {
-    translate: 0px 0px;
+    translate: 0px -30px;
 }
 
 .game-card-long-link .game-card-long-container .long_game_card_blossom {
@@ -102,7 +102,7 @@ a {
 }
 
 .game-card-long-link .game-card-long-container .long_game_card_avia {
-    translate: 0px -0px;
+    translate: 0px -25px;
 }
 
 .game-card-long-link .game-card-long-container .long_game_card_tm2020 {
