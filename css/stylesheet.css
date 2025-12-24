@@ -313,4 +313,10 @@ a {
 
 .blog-container p a {
     color: black;
+    text-decoration: underline;
+}
+
+.blog-container p a:hover {
+    color: blue;
+    text-decoration: underline;
 }
