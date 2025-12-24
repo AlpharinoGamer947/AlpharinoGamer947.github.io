@@ -79,7 +79,7 @@ a {
 }
 
 .game-card-long-link .game-card-long-container {
-    width: 100%;
+    width: fit-content;
     height: fit-content;
     overflow: hidden;
     border-radius: 15px;
@@ -94,7 +94,7 @@ a {
 }
 
 .game-card-long-link .game-card-long-container .long_game_card_isocore {
-    translate: 0px -120px;
+    translate: 0px -190px;
 }
 
 .game-card-long-link .game-card-long-container .long_game_card_blossom {
