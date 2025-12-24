@@ -94,19 +94,19 @@ a {
 }
 
 .game-card-long-link .game-card-long-container .long_game_card_isocore {
-    translate: 0px 0px;
+    translate: 0px -90px;
 }
 
 .game-card-long-link .game-card-long-container .long_game_card_blossom {
-    translate: 0px 0px;
+    translate: 0px -90px;
 }
 
 .game-card-long-link .game-card-long-container .long_game_card_avia {
-    translate: 0px 0px;
+    translate: 0px -120px;
 }
 
 .game-card-long-link .game-card-long-container .long_game_card_tm2020 {
-    translate: 0px 0px;
+    translate: 0px -90px;
 }
 
 /* Links Container */
