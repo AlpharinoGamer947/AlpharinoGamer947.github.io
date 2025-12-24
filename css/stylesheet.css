@@ -94,7 +94,7 @@ a {
 }
 
 .game-card-long-link .game-card-long-container .long_game_card_avia {
-    translate: 0px -120px;
+    translate: 0px 0px;
 }
 
 .game-card-long-link .game-card-long-container .long_game_card_isocore {
